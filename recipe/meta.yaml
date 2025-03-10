@@ -1,5 +1,5 @@
 {% set name = "antitesting" %}
-{% set version = "0.0.11" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/antitesting-{{ version }}.tar.gz
-  sha256: 5d175436f9d2b918a3f005c97869cc6a3f6be6b1dfcc76a526bf660a100ca85d
+  sha256: e9f85b57b63b5ba6017d1f720dfa5527c57a8b73b2827acea551af06bc04ef3a
 
 build:
   noarch: python
